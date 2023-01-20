@@ -1,0 +1,43 @@
+h1 {
+    font-weight: 800;
+    font-size: 42px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+h3 {
+    font-weight: 600;
+    font-size: 34px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 30px;
+}
+h5 {
+    font-weight: 400;
+    font-size: 26px;
+}
+input {
+    all: unset;
+}
+li {
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-size: 24px;
+}
+button {
+    border: none;
+    max-width: 164px;
+}
+button:hover {
+    background-color: rgba(159, 159, 159, 0.529);
+}
+body {
+    background-color: aliceblue;
+}

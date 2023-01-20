@@ -1,0 +1,171 @@
+@import "config.scss";
+.card {
+  box-shadow: rgba(0, 0, 0, 0.811) 0px 3px 8px;
+  background-color: rgb(255, 255, 255);
+  color: $text-1;
+  padding: 12px;
+  width: fit-content;
+}
+.card-main-content {
+  padding: 12px;
+  margin: auto;
+}
+.weather-display {
+  background-color: $nav-color;
+}
+.search {
+  border-radius: 24px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 6px;
+}
+.btn-no-decoration {
+  background-color: inherit;
+}
+.button {
+  color: white;
+  max-width: fit-content;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: rgb(121, 121, 121);
+}
+.button-principal {
+  background-color: rgb(0, 98, 255);
+}
+.button-info {
+  background-color: rgb(142, 170, 69);
+  border-radius: 100%;
+  padding: 2px;
+}
+
+.navbar {
+  background-color: $nav-color;
+  color: rgb(199, 121, 225);
+}
+#title {
+  color: rgb(53, 102, 120);
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff;
+}
+.max {
+  color: rgb(215, 0, 0);
+}
+.min {
+  color: rgb(17, 0, 255);
+}
+.p-remark {
+  font-weight: 600;
+}
+.p-scn {
+  color: $opaque;
+  font-size: 20px;
+}
+.card-simple {
+  width: 148px;
+  padding: 12px;
+  color: black;
+  border: 2px $opaque solid;
+  background-color: rgb(255, 255, 255);
+  margin: 2px;
+}
+@media (max-width: 400px) {
+  .card-simple {
+    width: 124px;
+    padding: 2px;
+    color: black;
+    border: 2px $opaque solid;
+    background-color: rgb(255, 255, 255);
+    margin: 2px;
+  }
+}
+.dropdown-btn {
+  padding: 4px;
+}
+.footer {
+  background-color: $footer-color;
+  padding: 48px;
+}
+.last-content {
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .last-content {
+    margin-top: 16px;
+  }
+}
+.loading-spinner {
+  margin: auto;
+  border: 10px solid rgb(103, 128, 180);
+  border-top: 10px solid $opaque;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  animation: spinner 1.5s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.search-content {
+  width: fit-content;
+  max-height: 240px;
+  background-color: rgb(153, 153, 153);
+  position: absolute;
+  text-align: right;
+  color: black;
+  z-index: 1;
+}
+.card {
+  margin: 24px 0;
+}
+.info-panel {
+  background-color: white;
+  min-width: 40%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 24px;
+}
+.tech-shadow {
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black, 1px 1px black, -1px -1px black, 1px -1px black,
+    -1px 1px black;
+}
+.react {
+  color: rgb(0, 55, 255);
+  font-weight: bolder;
+}
+.bootstrap {
+  color: darkorchid;
+  font-weight: bolder;
+}
+.btn-scroll-top {
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  z-index: 1;
+  border: 2px solid black;
+  border-radius: 100%;
+  padding: 12px;
+  max-width: fit-content;
+  background-color: $button-fixed;
+}
+@media (max-width: 500px) {
+  .btn-scroll-top {
+    left: 75%;
+  }
+}
+.icon-size-sm {
+  width: 32px;
+  height: 32px;
+}
+.icon-size-lg {
+  width: 108px;
+  height: 108px;
+}
