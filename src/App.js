@@ -9,7 +9,7 @@ import { Weather } from "./Components/Weather";
 import { ButtonScrollTop } from "./Components/FloatButton/ButtonScrollTop";
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-weather-app">
       <section className="navbar">
         <div className="container d-flex flex-column flex-md-row">
           <Logo />
@@ -19,8 +19,8 @@ export function App() {
         </div>
       </section>
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/weather/:lat/:lon" element={<Weather />} />
+        <Route path="home" element={<Home />} />
+        <Route path="weather/:lat/:lon" element={<Weather />} />
         <Route path="*" element={<Home />}></Route>
       </Routes>
       <ButtonScrollTop />
