@@ -9,7 +9,7 @@ import { Weather } from "./Components/Weather";
 import { ButtonScrollTop } from "./Components/FloatButton/ButtonScrollTop";
 export function App() {
   return (
-    <BrowserRouter basename="/react-weather-app">
+    <BrowserRouter>
       <section className="navbar">
         <div className="container d-flex flex-column flex-md-row">
           <Logo />
